@@ -15,7 +15,7 @@ var arr_ImageLetters = new Array();
 var arr_letters = ['a', 'b', 'c', 'd', 'e', 'f'];//, 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 for (var l = 0; l < 7; l++) {
     arr_ImageLetters[l] = new Image();
-    arr_ImageLetters[l].src = "img/" + arr_letters[l] + ".img"
+    arr_ImageLetters[l].src = "img/" + arr_letters[l] + ".png"
 }
 
 function Circle(x, y, r) {
