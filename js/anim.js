@@ -13,7 +13,7 @@ var arr_Msg = ['a', 'b', 'c', 'd', 'e','f','g'];
 var nMsgIndex = 0;
 var arr_ImageLetters = new Array();
 var arr_letters = ['a', 'b', 'c', 'd', 'e', 'f'];//, 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-for (var l = 0; l < 7; l++) {
+for (var l = 0; l < 6; l++) {
     arr_ImageLetters[l] = new Image();
     arr_ImageLetters[l].src = "img/" + arr_letters[l] + ".png"
 }
@@ -135,7 +135,7 @@ function draw() {
     }
 }
 function imagesLoaded() {
-    for (i = 0; i < 7; i++) {
+    for (i = 0; i < 6; i++) {
         if (!arr_ImageLetters[i].complete) return false;
     }
     setTimeout(startClearCircles, 1500);
